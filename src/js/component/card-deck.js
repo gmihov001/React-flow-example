@@ -7,7 +7,7 @@ const CardDeck = (props) => {
         <div className="container">
             <div className="text-center">
                 <h2>Characters List</h2>
-                <div className="d-flex">
+                <div className="d-flex flex-wrap">
                     {
                         props.movieToCardDeck == "LOTR" ? props.lotrArr.map(
                             (character, ind) => <Card key={ind} char={character} movieToCard={props.movieToCardDeck} />

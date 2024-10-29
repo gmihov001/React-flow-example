@@ -65,7 +65,7 @@ const Home = () => {
 	const [movie, setMovie] = useState("");
 
 	return (
-		<div className="container">
+		<div className="container-fluid">
 			<div className="text-center">
 				<h1>Movie Characters</h1>
 				{
